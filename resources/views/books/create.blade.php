@@ -2,7 +2,7 @@
 @extends('books.layout')
 @section('content')
 <div class="card">
-  <div class="card-header">Contactus Page</div>
+  <div class="card-header">create book</div>
   <div class="card-body">
       
       <form action="{{ url('books') }}"  method="post" enctype="multipart/form-data">

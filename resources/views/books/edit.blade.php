@@ -1,7 +1,7 @@
 @extends('books.layout')
 @section('content')
 <div class="card container">
-  <div class="card-header">edit page</div>
+  <div class="card-header">edit book</div>
   <div class="card-body">
       
   <form action="{{ url('books/' .$books->id) }}" method="post" enctype="multipart/form-data">
